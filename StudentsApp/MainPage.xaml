@@ -10,6 +10,7 @@
                     <ViewCell>
                         <ViewCell.View>
                             <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Id}" FontSize="16" />
                                 <Label Text="{Binding FIO}" FontSize="16" />
                                 <Label Text="{Binding Group}" FontSize="16" Margin="20, 0, 0, 0"/>
                             </StackLayout>

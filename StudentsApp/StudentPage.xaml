@@ -7,7 +7,7 @@
     <StackLayout>
         <Label Text="ФИО" />
         <Entry Text="{Binding FIO}" />
-        <Picker x:Name="GroupPicker" Title = "Группа" SelectedIndexChanged="GroupPicker_SelectedIndexChanged" SelectedItem="{Binding Group}">
+        <Picker x:Name="GroupPicker" Title = "Группа" SelectedItem="{Binding Group}">
             <Picker.Items>
                 <x:String>ИСП21А</x:String>
                 <x:String>ТМ20А</x:String>

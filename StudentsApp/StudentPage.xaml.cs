@@ -27,8 +27,4 @@ public partial class StudentPage : ContentPage
         this.Navigation.PopAsync();
     }
 
-    private void GroupPicker_SelectedIndexChanged(object sender, EventArgs e)
-    {
-
-    }
 }
